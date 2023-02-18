@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h5,h6,p,ul{
+  margin: 0;
+  padding: 0;
+}
+.top_header{
+  padding: 20px 0;
+
+}
+.top_header ul{
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.top_header ul li{
+  margin-left: 30px;
+}
+.logo{
+  
+}
+.logo img{
+
+}
+.header_right_containt{
+
+}
+.header_right_containt ul{
+
+}
+.header_right_containt ul li{
+
+}
+.header_info{
+  display: flex;
+  align-items: center;
+}
+
+.header_info{
+
+}
+.header_icon{
+  font-size: 25px;
+  color: #f69165;
+  margin-right: 7px;
+}
+.header_cont{
+
+}
+.header_cont h5{
+  font-size: 15px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.header_cont p{
+  font-size: 14px;
+  font-family: sans-serif;
+
+}
+.header_cont h2 p h1 h3{
+
+}
+header{
+  background: #00cce1;
+}
+.Appoinment_btn{
+  color: #fff;
+  background-color: #f69165;
+  padding: 20px 30px;
+  transform: skewX(341deg);
+}
+.Appoinment_btn a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transform: skewX(18deg);
+  font-weight: 600;
+}
+.Appoinment_btn i {
+  transform: skewX(20deg);
+}
+.nav-link{
+  color: #fff;
+  position: relative;
+  z-index: 0;
+  padding: 18px 0;
+
+}
+.nav-link:hover{
+  color: #fff;
+}
+.nav-link::before{
+  content:'' ;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #f69165;
+  transition: 1s all ease-in-out;
+  z-index: -1;
+}
+.nav-link:hover::before{
+  height: 100%;
+}
+.navbar{
+  padding: 0;
+}
+.banner{
+  background-image: url(../image/Banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+.banner h2{
+  color: #fff;
+  background-color: #00cce1;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  display: inline-block;
+  
+}
+.banner h1{
+  color: #fff;
+  background-color: #f69165;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 3px 10px;
+}
+.banner p{
+  margin-top: 15px;
+  font-family: sans-serif;
+
+}
+.banner img{
+  position: absolute;
+  bottom: 0;
+
+}
+.height{
+  min-height: 80vh;
+  align-items: center;
+  position: relative;
+}
+.btn-learn{
+  background: #f69165;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-book{
+  background: #00cce1;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text_section{
+
+}
+.text_section h1{
+  text-align: center;
+  font-size: 200%;
+  margin-top: 30px;
+}
+.text_section p{
+  text-align: center;
+  font-size: 100%;
+  margin-top: 10px;
+}
+.home{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+}
+.image{
+
+}
+.image img{
+  height: 400px;
+  margin-top: 20px;
+}
+.contant{
+  
+}
+.contant img{
+  height: 40px;
+}
+
+/* welcome section code   */
+.icon_content_control{
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+.welcome_icon{
+
+}
+.welcome_icon i{
+
+  color: rgb(246, 145, 101);
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  
+}
+.icon_content_control h2{
+
+  color: rgb(54, 54, 54);
+  font-size: 25px;
+}
+.icon_content_control p{
+
+  font-size: 14px;
+  color: rgb(112, 112, 112);
+}
+.meet{
+
+}
+.meet_section{
+  background-color: #f9f9f9;
+  margin-top: -50px;
+}
+.meet_section h1{
+  font-weight: bold;
+  margin-top: 20px;
+  color: #000000;
+}
+.meet_section image{
+  margin-top: 5px;
+}
+.meet_section p{
+  color: #c9c9c9;
+  margin-top: 10px;
+}
+.doctor_img{
+  background-color: #f9f9f9;
+}
+.doctor_img img{
+  text-align: center;
+  margin-top: 30px;
+}
+.doctor_img h1{
+  
+}
+
